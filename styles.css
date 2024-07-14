@@ -67,7 +67,7 @@ body {
 }
 
 .links a:hover {
-    color: #fff;
+    opacity: 0.7;
 }
 
 .links span {
