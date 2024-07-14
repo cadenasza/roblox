@@ -2,5 +2,74 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 
+body {
+    background: url(./img/roblox.png);
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-position-y:bottom ;
+}
+
+.container {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.links-cadastro-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    margin-top: 40vh;
+}
+
+.link {
+    color: #fff;
+    font-weight: 400;
+    font-size: 1rem;
+    text-decoration: none;
+    border: 1px solid #ffffffb2;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0.7rem 0;
+    font-weight: 600;
+}
+
+.link-1 {
+    background-color: #ffffffb2;
+    color: #333;
+}
+
+.link:hover {
+    opacity: 0.5;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links a {
+    color: #009af3;
+    margin: 0 0.2rem;
+    font-weight: 500;
+}
+
+.links a:hover {
+    color: #fff;
+}
+
+.links span {
+    color: #009af3;
+}
