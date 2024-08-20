@@ -28,7 +28,7 @@ body {
 
 .form {
     margin-top: 55vh;
-    width: 20%;
+    min-width: 25%;
 }
 
 .formulario {
@@ -76,7 +76,7 @@ body {
 .link-1 {
     margin-top: 2rem;
     color: #ffffffb2;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 0.9rem;
     margin-bottom: 1rem;
 }
